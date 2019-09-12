@@ -1,0 +1,25 @@
+.first-button
+    position: relative
+    padding: 20px 60px
+    background-color: transparent
+    border: 3px solid $primary-dark
+    outline: 0
+    font-size: 1.45em
+    color: $text-secondary
+    text-transform: capitalize
+    overflow: hidden
+    z-index: 0
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: calc(100% + 40px)
+        height: 100%
+        background-color: $action
+        transform: rotate(-90deg)
+        transform-origin: bottom left
+        transition: transform .42s ease-out
+        z-index: -1
+    &:hover:before
+        transform: rotate(0deg)
