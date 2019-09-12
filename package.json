@@ -1,0 +1,16 @@
+{
+  "name": "hobby-css-animation",
+  "version": "1.0.0",
+  "description": "CSS Animation Just For Fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Megaju (J. Malle)",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
