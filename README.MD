@@ -1,4 +1,4 @@
-CHIMI CHANGA SUPOSITORY
-=======================
+CHIMICHANGA SUPOSITORY
+======================
 
-[See the result](https://megaju.github.io/chimi-changa-supository/)
+[See the result](https://megaju.github.io/chimichanga-supository/)
