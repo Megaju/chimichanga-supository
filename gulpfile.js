@@ -1,4 +1,4 @@
-const {src, dest, series, watch, lastRun} = require('gulp');
+const {src, dest, series, watch} = require('gulp');
 const del = require('del');
 const iLoveSass = require('gulp-sass');
 
@@ -12,8 +12,7 @@ function watcher() {
 
 function sass() {
     return src('assets/sass/**/*.sass', {
-        sourcemaps: true,
-        since: lastRun(sass)
+        sourcemaps: true
     })
         .pipe(iLoveSass())
         .pipe(dest('dist/css', {
